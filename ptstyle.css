@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-attachment: fixed;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+section .container{
+
+    position: relative;
+    margin: auto;
+    margin-top:10px;
+    max-width: 1000px;
+    height: auto;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    overflow: hidden;
+    color: #fff;
+}
